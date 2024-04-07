@@ -84,11 +84,11 @@
         <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
           <div class="row">
             <div class="col-lg-4 col-md-6 form-group">
-              <input type="text" name="tablenumber" class="form-control" id="tablenumber" placeholder="Nomor meja" data-rule="minlen:4" data-msg="Please enter your table number">
+              <input type="number" name="tablenumber" class="form-control" id="tablenumber" placeholder="Silakan masukkan nomor meja anda" data-rule="minlen:4" data-msg="Please enter your table number">
               <div class="validate"></div>
             </div>
             <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
-              <input type="text" class="form-control" name="name" id="name" placeholder="Nama anda" data-rule="name" data-msg="Please enter your name">
+              <input type="text" class="form-control" name="name" id="name" placeholder="Silakan masukkam nama anda" data-rule="name" data-msg="Please enter your name">
               <div class="validate"></div>
             </div>
             <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
@@ -101,14 +101,19 @@
             </div>
           
             
-          
+           
           
           <div class="mb-3">
             <div class="loading">Loading</div>
             <div class="error-message"></div>
             <div class="sent-message">Your booking request was sent. We will call back to confirm your reservation. Thank you!</div>
           </div>
-          <div class="text-center"><button type="submit">Order</button></div>
+          <div class="text-center pt-5">
+            <button type="submit">Order</button>
+          </div>
+          <div class="text-center pt-2">
+            <a href="index.html">Back</a>
+          </div>
         </form>
 
       </div>
