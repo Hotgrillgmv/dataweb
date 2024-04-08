@@ -1731,3 +1731,8 @@ section {
   font-size: 13px;
   color: #fff;
 }
+
+.styleselect{
+  background-color: black;
+  color: rgb(139, 139, 135);
+}
